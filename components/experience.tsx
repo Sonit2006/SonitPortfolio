@@ -8,11 +8,9 @@ const experiences = [
     location: "Urbana-Champaign, IL",
     period: "June 2025 – Present",
     highlights: [
-      "Developing a fine-grained evaluation framework for controllable long-form text generation, converting multi-part human instructions into atomic constraints and computing both constraint-level and prompt-level compliance scores.",
-      "Expanding the benchmark to 25+ constraint families (e.g., structural, progression-based, semantic, formatting) and building logic to validate multi-part outputs, progression rules, and meta-linked constraints for each model response.",
-      "Implementing automated scoring pipelines that process 1,000+ model outputs, generate per-response and per-prompt analytics, and export aggregated results to CSV for visualization and statistical analysis.",
-      "Analyzing model failure modes—such as inconsistent structure, broken progression logic, and constraint sensitivity—to produce interpretable insights that support more reliable and controllable LLM behavior.",
-    ],
+      "Built a fine-grained evaluation system for controllable long-form text generation, breaking complex human instructions into precise constraints and scoring models on both individual rules and overall prompt compliance across multiple constraint families.",
+      "Designed an automated analysis pipeline that evaluated 1,000+ model outputs, surfaced common failure patterns (structure drift, broken progression, constraint sensitivity), and produced clean analytics for comparison and visualization."
+     ],
   },
   {
     title: "Technical Lead",
@@ -30,9 +28,8 @@ const experiences = [
     location: "Urbana-Champaign, IL",
     period: "February 2025 – May 2025",
     highlights: [
-      "Assisted in creating an AI system using Python that provides instant corrective feedback to users during workouts",
-      "Developed a web dashboard in React/Tailwind CSS to visualize EMG activity and key startup metrics for 30+ test users",
-      "Managed team codebase with Git/GitHub, reviewing 20+ pull requests and resolving conflicts",
+      "Helped build a Python-based AI system that gives users real-time corrective feedback during workouts, focusing on fast, practical responses rather than offline analysis.",
+      "Built a React + Tailwind dashboard to visualize EMG signals and key startup metrics, supporting insights from test users, and kept the codebase clean by managing reviews and resolving issues across 20+ GitHub PRs"
     ],
   },
   {
@@ -41,9 +38,8 @@ const experiences = [
     location: "Bloomington, IL",
     period: "January 2023 – August 2023",
     highlights: [
-      "Developed a React-based platform for 200+ students to register, attend classes, and communicate with instructors",
-      "Used AWS CodeCommit and AWS CLI to host code and deploy code changes, managing 10+ updates",
-      "Managed project scope and schedule using Agile techniques throughout the entire project lifecycle",
+      "Built and shipped a React-based platform that simplified student registration, class participation, and instructor communication, taking the product from idea to production.",
+      "Deployed and iterated on the platform using AWS CodeCommit and the AWS CLI, driving development with Agile workflows end to end."
     ],
   },
 ]

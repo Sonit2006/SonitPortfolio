@@ -10,12 +10,17 @@ const certifications = [
   {
     name: "AWS Certified Cloud Practitioner",
     organization: "Amazon Web Services",
-    credentialUrl: "https://www.credly.com/badges/a5ae3034-cefb-4f79-9802-4e1861b9f199/linked_in_profile",
+    credentialUrl: "https://www.credly.com/badges/4e94fd85-94a6-4036-9c5e-a79652356523/linked_in_profile",
   },
   {
     name: "Intermediate Machine Learning",
     organization: "Kaggle",
-    credentialUrl: "https://www.credly.com/badges/4e94fd85-94a6-4036-9c5e-a79652356523/linked_in_profile",
+    credentialUrl: "https://media.licdn.com/dms/image/v2/D562DAQGhma5U4XC2hw/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1737341970071?e=1768366800&v=beta&t=sid1S3y6hNnmo7alTLOhy2JDr5DNtUsZYxmaAZoiv-o",
+  },
+  {
+    name: "Intro to Machine Learning",
+    organization: "Kaggle",
+    credentialUrl: "https://media.licdn.com/dms/image/v2/D562DAQFVs92NT3xwkw/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1737342145209?e=1768366800&v=beta&t=7USOmX7YA1jmc5gCzMoenkfYWHdBFIr2NXrfQmaF0wI"  
   },
   {
     name: "PCAP - Certified Associate Python Programmer",
@@ -23,7 +28,7 @@ const certifications = [
     credentialUrl: "https://www.credly.com/badges/0d46606a-a6b5-46d3-baff-663b9b7cf7fc/linked_in_profile",
   },
   {
-    name: "[PCPP-32-101] PCPP1 – Certified Professional Python Programmer Level 1",
+    name: "[PCPP-32-101] PCPP1 – Certified Professional Python Programmer",
     organization: "Python Institute",
     credentialUrl: "https://www.credly.com/badges/a5ae3034-cefb-4f79-9802-4e1861b9f199/linked_in_profile",
   },

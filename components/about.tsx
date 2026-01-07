@@ -6,19 +6,18 @@ export function About() {
 
         <div className="space-y-6 text-lg leading-relaxed text-muted-foreground">
           <p>
-            Hey there! I'm Sonit, a sophomore at UIUC double majoring in Computer Science and Astronomy. I'm really into
-            software engineering, robotics, and AI research—basically anything where I can build cool stuff that pushes
+            Hey there! I'm Sonit, a sophomore at UIUC majoring in Computer Science and Astronomy. I'm really into
+            software engineering, robotics, and AI research. Basically anything where I can build cool stuff that pushes
             boundaries.
           </p>
 
           <p>
-            Python is my go-to language. There's something satisfying about how quickly you can go from idea to working
-            prototype. I love diving into research problems and figuring out elegant solutions to complex challenges.
+            Python is my home base. It’s the language I think in when I’m sketching ideas, prototyping fast, or digging into something complex. I love how expressive it is, how much you can do with a few clean lines, and how deep the ecosystem goes once you really start exploring it. A lot of my projects and research work end up there for a reason.
           </p>
 
           <p>
-            When I'm not coding, you'll find me reading up on the latest astronomy discoveries, catching movies, playing
-            badminton, or jamming on the tabla. Life's too short not to explore everything that fascinates you, right?
+            When I'm not coding, you'll find me reading up on the latest astronomy discoveries, catching movies, running
+            badminton rallies in the gym, or playing tabla. Life's too short not to explore everything that fascinates you, right?
           </p>
         </div>
       </div>
