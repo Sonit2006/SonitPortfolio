@@ -56,13 +56,33 @@ export function Projects() {
           {projects.map((project) => (
             <Card
               key={project.title}
-              className="group hover:border-primary/50 transition-all duration-300 hover:shadow-lg hover:shadow-primary/5"
+              className="group relative overflow-hidden hover:border-primary/50 transition-all duration-300 hover:shadow-lg hover:shadow-primary/20 bg-gradient-to-br from-card via-card to-card/50"
             >
-              <CardHeader>
+              <div className="absolute inset-0 opacity-5 pointer-events-none">
+                <svg className="w-full h-full" xmlns="http://www.w3.org/2000/svg">
+                  <defs>
+                    <pattern id="circuit" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+                      <circle cx="20" cy="20" r="1.5" fill="currentColor" />
+                      <line x1="20" y1="0" x2="20" y2="15" stroke="currentColor" strokeWidth="0.5" />
+                      <line x1="20" y1="25" x2="20" y2="40" stroke="currentColor" strokeWidth="0.5" />
+                      <line x1="0" y1="20" x2="15" y2="20" stroke="currentColor" strokeWidth="0.5" />
+                      <line x1="25" y1="20" x2="40" y2="20" stroke="currentColor" strokeWidth="0.5" />
+                    </pattern>
+                  </defs>
+                  <rect width="100%" height="100%" fill="url(#circuit)" />
+                </svg>
+              </div>
+
+              <div className="absolute top-0 left-0 w-6 h-6 border-t-2 border-l-2 border-primary/40 group-hover:border-primary/70 transition-colors" />
+              <div className="absolute top-0 right-0 w-6 h-6 border-t-2 border-r-2 border-primary/40 group-hover:border-primary/70 transition-colors" />
+              <div className="absolute bottom-0 left-0 w-6 h-6 border-b-2 border-l-2 border-primary/40 group-hover:border-primary/70 transition-colors" />
+              <div className="absolute bottom-0 right-0 w-6 h-6 border-b-2 border-r-2 border-primary/40 group-hover:border-primary/70 transition-colors" />
+
+              <CardHeader className="relative">
                 <div className="flex items-start justify-between gap-4">
                   <div className="space-y-2 flex-1">
-                    <CardTitle className="text-xl group-hover:text-primary transition-colors">
-                      {project.title}
+                    <CardTitle className="text-xl group-hover:text-primary transition-colors font-mono">
+                      <span className="text-primary/60">{">"}</span> {project.title}
                     </CardTitle>
                     <CardDescription className="text-sm leading-relaxed">{project.description}</CardDescription>
                   </div>
@@ -84,10 +104,13 @@ export function Projects() {
                 </div>
               </CardHeader>
 
-              <CardContent>
+              <CardContent className="relative">
                 <div className="flex flex-wrap gap-2">
                   {project.tags.map((tag) => (
-                    <span key={tag} className="text-xs px-2 py-1 rounded-md bg-primary/10 text-primary font-mono">
+                    <span
+                      key={tag}
+                      className="text-xs px-2 py-1 rounded-sm bg-primary/10 text-primary font-mono border border-primary/20"
+                    >
                       {tag}
                     </span>
                   ))}

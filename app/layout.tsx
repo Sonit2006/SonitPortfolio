@@ -11,24 +11,6 @@ export const metadata: Metadata = {
   title: "Sonit Maddineni - CS & Astronomy at UIUC",
   description:
     "Portfolio of Sonit Maddineni - Computer Science and Astronomy student at UIUC, interested in software engineering, robotics, and AI research",
-  generator: "v0.app",
-  icons: {
-    icon: [
-      {
-        url: "/icon-light-32x32.png",
-        media: "(prefers-color-scheme: light)",
-      },
-      {
-        url: "/icon-dark-32x32.png",
-        media: "(prefers-color-scheme: dark)",
-      },
-      {
-        url: "/icon.svg",
-        type: "image/svg+xml",
-      },
-    ],
-    apple: "/apple-icon.png",
-  },
 }
 
 export default function RootLayout({
