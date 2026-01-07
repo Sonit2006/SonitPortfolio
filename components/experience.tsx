@@ -8,28 +8,24 @@ const experiences = [
     location: "Urbana-Champaign, IL",
     period: "June 2025 – Present",
     highlights: [
-      "Built a fine-grained evaluation system for controllable long-form text generation, breaking complex human instructions into precise constraints and scoring models on both individual rules and overall prompt compliance across multiple constraint families.",
-      "Designed an automated analysis pipeline that evaluated 1,000+ model outputs, surfaced common failure patterns (structure drift, broken progression, constraint sensitivity), and produced clean analytics for comparison and visualization."
-     ],
+      "Built a fine-grained evaluation framework for controllable long-form text generation, decomposing complex instructions into atomic constraints and automatically scoring 1,000+ model outputs to identify structural failures, progression errors, and constraint sensitivity across models." ],
   },
   {
     title: "Technical Lead",
-    company: "National Organization for Business and Engineering (NOBE): Illinois Chapter",
+    company: "National Organization for Business and Engineering (NOBE)",
     location: "Urbana-Champaign, IL",
     period: "September 2025 – Present",
     highlights: [
-      "Leading an 8-member team to design and launch a React-based website and React Native app serving 1,000+ users",
-      "Providing technical guidance for the team, conducting weekly client meetings, translating requirements into actionable sprints and performing 20+ code reviews to ensure quality and on-time deployment",
+      "Led an 8-person team to design and ship a React web platform and React Native app used by 1,000+ users, driving sprint planning, technical direction, client alignment, and rigorous code reviews to ensure high-quality, on-time releases."
     ],
   },
   {
     title: "Software Developer",
-    company: "NOBE",
+    company: "National Organization for Business and Engineering (NOBE)",
     location: "Urbana-Champaign, IL",
     period: "February 2025 – May 2025",
     highlights: [
-      "Helped build a Python-based AI system that gives users real-time corrective feedback during workouts, focusing on fast, practical responses rather than offline analysis.",
-      "Built a React + Tailwind dashboard to visualize EMG signals and key startup metrics, supporting insights from test users, and kept the codebase clean by managing reviews and resolving issues across 20+ GitHub PRs"
+      "Developed a Python-powered AI system providing real-time corrective feedback during workouts and built a React + Tailwind dashboard to visualize EMG signals and key metrics, while managing the codebase with 20+ GitHub PRs to keep development smooth and maintainable."
     ],
   },
   {
@@ -38,8 +34,7 @@ const experiences = [
     location: "Bloomington, IL",
     period: "January 2023 – August 2023",
     highlights: [
-      "Built and shipped a React-based platform that simplified student registration, class participation, and instructor communication, taking the product from idea to production.",
-      "Deployed and iterated on the platform using AWS CodeCommit and the AWS CLI, driving development with Agile workflows end to end."
+      "Built and deployed a React platform for student registration, class participation, and instructor communication, managing the full development lifecycle with AWS CodeCommit, CLI, and Agile workflows from ideation to production."
     ],
   },
 ]
