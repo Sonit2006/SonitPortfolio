@@ -1,0 +1,6 @@
+@import '@fontsource/instrument-sans/400.css';
+@import '@fontsource/instrument-sans/500.css';
+@import '@fontsource/instrument-serif/400.css';
+@import '@fontsource/instrument-serif/400-italic.css';
+:root{color-scheme:dark;--ink:#f1f0ec;--mute:#9b9ea4;--line:rgba(241,240,236,.16);box-sizing:border-box}
+*{box-sizing:inherit}
