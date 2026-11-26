@@ -1,6 +1,6 @@
 export type Figure = { value: number; suffix: string; label: string };
 export type Role = { company: string; title: string; start: string; end: string; bullets: string[]; figures: Figure[]; lane: string; startMonth: number; endMonth: number; present?: boolean };
-export type Project = { year: string; name: string; stack: string; bullets: string[]; source?: string };
+export type Project = { year: string; name: string; stack: string; bullets: string[] };
 export type Certification = { name: string; issuer: string; url?: string };
 export type Link = { label: string; href: string; external?: boolean };
 

@@ -2,7 +2,7 @@ import { content } from '../data/content';
 import { animateElement } from './slides';
 type ProjectRow = { name: HTMLElement; details: HTMLElement; height: number };
 export function renderProjects(root: HTMLElement): { render: (step: number) => void; measure: () => void } {
-  root.innerHTML = '<div class="eb r">Projects</div>' + content.projects.map((project) => `<div class="pr r"><div class="prh"><span class="yr">${project.year}</span><span class="pn">${project.name}</span><span class="ps">${project.stack}</span></div><div class="dt"><div class="dti"><div class="stk">${project.stack}</div><ul>${project.bullets.map((bullet) => `<li class="b">${bullet}</li>`).join('')}</ul><div class="src">${project.source ?? ''}</div></div></div></div>`).join('');
+  root.innerHTML = '<div class="eb r">Projects</div>' + content.projects.map((project) => `<div class="pr r"><div class="prh"><span class="yr">${project.year}</span><span class="pn">${project.name}</span><span class="ps">${project.stack}</span></div><div class="dt"><div class="dti"><div class="stk">${project.stack}</div><ul>${project.bullets.map((bullet) => `<li class="b">${bullet}</li>`).join('')}</ul></div></div></div>`).join('');
   const reveals = [...root.querySelectorAll<HTMLElement>('.r')]; const rows: ProjectRow[] = [...root.querySelectorAll<HTMLElement>('.pr')].map((row) => ({ name: row.querySelector<HTMLElement>('.pn')!, details: row.querySelector<HTMLElement>('.dt')!, height: 0 }));
   const measure = (): void => rows.forEach((row) => { row.height = row.details.querySelector<HTMLElement>('.dti')?.offsetHeight ?? 0; });
   window.addEventListener('resize', measure); document.fonts?.ready.then(measure); measure();
